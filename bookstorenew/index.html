@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookstore</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+
+  <header class="header">
+    <div class="container">
+      <div class="header-top">
+        <a href="#" class="logo">
+         <img 
+         src="img/Logo.svg" alt="Logo: Bookstore" class="logo__image">
+        </a>
+        <nav class="nav">
+          <a href="#" class="nav-link">Рекомендации</a>
+          <a href="#" class="nav-link">Книги</a>
+          <a href="#" class="nav-link">Блог</a>
+        </nav>
+        <button class="search__button">Получить</button>
+      </div>
+    </div>
+  </header>
+
+
+<section class="home">
+  <div class="home-container">
+
+  <div class="home-books">
+    <h1 class="home-books__title"> Design Theory: The Psychology of Graphic Design Pricing </h1>
+    <span class="home-books__autor">КНИГА МИШЕЛЯ ЯНГА</span>
+    <span class="home-books__subtitle"> Спустя 15 лет я управляю собственной студией, выполнив тысячи проектов для крупных клиентов. Теперь я делюсь своими золотыми стратегиями ценообразования на творческую работу. </span>
+    <div class="buttons">
+      <button class="buttons-primary"> КУПИТЬ СЕЙЧАС </button>
+      <a href="https://michaeljanda.com/psychopricing/" class="buttons-outline"> ЧИТАТЬ ДЕМО</a>
+    </div>
+  </div>
+  <div class="home-image">
+    <img class="home-image__img" src="img/image.png" alt="Книга"/> 
+    </div>
+</div>
+</section>
+
+
+
+
+
+<section id="recomend" class="other-book">
+  <div class="container">
+    <div class="other-book-wrapper">
+      <div class="recommendation">
+        <h2 class="other-book__title">Рекомендации</h2>
+        <ul class="recommendation__list">
+          <li class="recommendation__item">
+            <img src="img/Bitmap.png" alt="Image: Book" class="recommendation__img" />
+            <div class="recommendation__info">
+              <h3 class="recommendation__title">
+                The World of Abstract Art
+              </h3>
+              <span class="recommendation__section">Art & Design</span>
+              <span class="other-book__price other-book__price-recommendation">$25.00</span>
+              <div class="other-book__buy">
+                <button data-toggle="modal" class="other-book__button other-book__button-recommendation">
+                  Купить
+                </button>
+                <svg width="18" height="36" viewBox="1 -4 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="recommendation__like">
+                  <path class="icon-like"
+                    d="M17.2422 1.46484C15.3086 -0.1875 12.4609 0.128906 10.668 1.95703L10 2.66016L9.29688 1.95703C7.53906 0.128906 4.65625 -0.1875 2.72266 1.46484C0.507812 3.36328 0.402344 6.73828 2.37109 8.77734L9.19141 15.8086C9.61328 16.2656 10.3516 16.2656 10.7734 15.8086L17.5938 8.77734C19.5625 6.73828 19.457 3.36328 17.2422 1.46484Z"
+                    fill="#959EAD" />
+                </svg>
+              </div>
+            </div>
+            <!-- /.recommendation__info -->
+          </li>
+
+
+          <li class="recommendation__item">
+            <img src="img/Bitmap4.png" alt="Image: Book" class="recommendation__img" />
+            <div class="recommendation__info">
+              <h3 class="recommendation__title">
+                Educated : <br />
+                a Memoir
+              </h3>
+              <span class="recommendation__section">Education</span>
+              <span class="other-book__price other-book__price-recommendation">$28.00</span>
+              <div class="other-book__buy">
+                <button data-toggle="modal" class="other-book__button other-book__button-recommendation">
+                  Купить
+                </button>
+                <svg width="18" height="36" viewBox="1 -4 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="recommendation__like">
+                  <path class="icon-like"
+                    d="M17.2422 1.46484C15.3086 -0.1875 12.4609 0.128906 10.668 1.95703L10 2.66016L9.29688 1.95703C7.53906 0.128906 4.65625 -0.1875 2.72266 1.46484C0.507812 3.36328 0.402344 6.73828 2.37109 8.77734L9.19141 15.8086C9.61328 16.2656 10.3516 16.2656 10.7734 15.8086L17.5938 8.77734C19.5625 6.73828 19.457 3.36328 17.2422 1.46484Z"
+                    fill="#959EAD" />
+                </svg>
+              </div>
+            </div>
+            <!-- /.recommendation__info -->
+          </li>
+
+          
+
+          <li class="recommendation__item">
+            <img src="img/Bitmap2.png" alt="Image: Book" class="recommendation__img" />
+            <div class="recommendation__info">
+              <h3 class="recommendation__title">The Blue Flowers Ray…</h3>
+              <span class="recommendation__section">Novel</span>
+              <span class="other-book__price other-book__price-recommendation">$19.50</span>
+              <div class="other-book__buy">
+                <button data-toggle="modal" class="other-book__button other-book__button-recommendation">
+                  Купить
+                </button>
+                <svg width="18" height="36" viewBox="1 -4 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="recommendation__like">
+                  <path class="icon-like"
+                    d="M17.2422 1.46484C15.3086 -0.1875 12.4609 0.128906 10.668 1.95703L10 2.66016L9.29688 1.95703C7.53906 0.128906 4.65625 -0.1875 2.72266 1.46484C0.507812 3.36328 0.402344 6.73828 2.37109 8.77734L9.19141 15.8086C9.61328 16.2656 10.3516 16.2656 10.7734 15.8086L17.5938 8.77734C19.5625 6.73828 19.457 3.36328 17.2422 1.46484Z"
+                    fill="#959EAD" />
+                </svg>
+              </div>
+            </div>
+            <!-- /.recommendation__info -->
+          </li>
+
+          <li class="recommendation__item">
+            <img src="img/Bitmap5.png" alt="Image: Book" class="recommendation__img" />
+            <div class="recommendation__info">
+              <h3 class="recommendation__title">
+                There There : <br />
+                a Novel by TO
+              </h3>
+              <span class="recommendation__section">Novel</span>
+              <span class="other-book__price other-book__price-recommendation">$20.00</span>
+              <div class="other-book__buy">
+                <button data-toggle="modal" class="other-book__button other-book__button-recommendation">
+                  Купить
+                </button>
+                <svg width="18" height="36" viewBox="1 -4 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="recommendation__like">
+                  <path class="icon-like"
+                    d="M17.2422 1.46484C15.3086 -0.1875 12.4609 0.128906 10.668 1.95703L10 2.66016L9.29688 1.95703C7.53906 0.128906 4.65625 -0.1875 2.72266 1.46484C0.507812 3.36328 0.402344 6.73828 2.37109 8.77734L9.19141 15.8086C9.61328 16.2656 10.3516 16.2656 10.7734 15.8086L17.5938 8.77734C19.5625 6.73828 19.457 3.36328 17.2422 1.46484Z"
+                    fill="#959EAD" />
+                </svg>
+              </div>
+            </div>
+            <!-- /.recommendation__info -->
+          </li>
+          <li class="recommendation__item">
+            <img src="img/Bitmap3.png" alt="Image: Book" class="recommendation__img" />
+            <div class="recommendation__info">
+              <h3 class="recommendation__title">
+                WMNDFL : <br />
+                The Inspiration
+              </h3>
+              <span class="recommendation__section">Business</span>
+              <span class="other-book__price other-book__price-recommendation">$23.00</span>
+              <div class="other-book__buy">
+                <button data-toggle="modal" class="other-book__button other-book__button-recommendation">
+                  Купить
+                </button>
+                <svg width="18" height="36" viewBox="1 -4 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="recommendation__like">
+                  <path class="icon-like"
+                    d="M17.2422 1.46484C15.3086 -0.1875 12.4609 0.128906 10.668 1.95703L10 2.66016L9.29688 1.95703C7.53906 0.128906 4.65625 -0.1875 2.72266 1.46484C0.507812 3.36328 0.402344 6.73828 2.37109 8.77734L9.19141 15.8086C9.61328 16.2656 10.3516 16.2656 10.7734 15.8086L17.5938 8.77734C19.5625 6.73828 19.457 3.36328 17.2422 1.46484Z"
+                    fill="#959EAD" />
+                </svg>
+              </div>
+            </div>
+            <!-- /.recommendation__info -->
+          </li>
+          <li class="recommendation__item">
+            <img src="img/Bitmap6.png" alt="Image: Book" class="recommendation__img" />
+            <div class="recommendation__info">
+              <h3 class="recommendation__title">
+                Making <br />
+                Things Happen
+              </h3>
+              <span class="recommendation__section">Motivation</span>
+              <span class="other-book__price other-book__price-recommendation">$23.00</span>
+              <div class="other-book__buy">
+                <button data-toggle="modal" class="other-book__button other-book__button-recommendation">
+                  Купить
+                </button>
+                <svg width="18" height="36" viewBox="1 -4 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="recommendation__like">
+                  <path class="icon-like"
+                    d="M17.2422 1.46484C15.3086 -0.1875 12.4609 0.128906 10.668 1.95703L10 2.66016L9.29688 1.95703C7.53906 0.128906 4.65625 -0.1875 2.72266 1.46484C0.507812 3.36328 0.402344 6.73828 2.37109 8.77734L9.19141 15.8086C9.61328 16.2656 10.3516 16.2656 10.7734 15.8086L17.5938 8.77734C19.5625 6.73828 19.457 3.36328 17.2422 1.46484Z"
+                    fill="#959EAD" />
+                </svg>
+              </div>
+            </div>
+            <!-- /.recommendation__info -->
+          </li>
+        </ul>
+        <div class="other-book-more">
+          <div class="other-book-more__background"></div>
+          <button class="other-book-more__button">Больше рекомендаций</button>
+        </div>
+        <!-- /.other-book-more -->
+      </div>
+      <!-- /.recommendation -->
+
+      <div class="best">
+        <h2 class="other-book__title other-book__title-month">Топ Месяца</h2>
+        <div class="best-wrapper">
+          <ul class="best__list">
+            <li class="best__item">
+              <img src="img/Bitmap7.png" alt="Image: Book" class="best__img" />
+              <div class="best__info">
+                <h3 class="best__title">Sprint : Solve, Test in 5 Days</h3>
+                <span class="other-book__price other-book__price-best">$23.00</span>
+                <div class="other-book__buy other-book__buy-best">
+                  <button data-toggle="modal" class="other-book__button">
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <!-- /.best_info -->
+            </li>
+            <li class="best__item">
+              <img src="img/Bitmap8.png" alt="Image: Book" class="best__img" />
+              <div class="best__info">
+                <h3 class="best__title">Hacking Growth Break Problem</h3>
+                <span class="other-book__price other-book__price-best">$23.00</span>
+                <div class="other-book__buy other-book__buy-best">
+                  <button data-toggle="modal" class="other-book__button">
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <!-- /.best_info -->
+            </li>
+            <li class="best__item">
+              <img src="img/Bitmap9.png" alt="Image: Book" class="best__img" />
+              <div class="best__info">
+                <h3 class="best__title">Very Nice a Novel by Mercy</h3>
+                <span class="other-book__price other-book__price-best">$23.00</span>
+                <div class="other-book__buy other-book__buy-best">
+                  <button data-toggle="modal" class="other-book__button">
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <!-- /.best_info -->
+            </li>
+            <li class="best__item">
+              <img src="img/Bitmap10.png" alt="Image: Book" class="best__img" />
+              <div class="best__info">
+                <h3 class="best__title">Hooked : How to Build Products</h3>
+                <span class="other-book__price other-book__price-best">$23.00</span>
+                <div class="other-book__buy other-book__buy-best">
+                  <button data-toggle="modal" class="other-book__button">
+                    Купить
+                  </button>
+                </div>
+              </div>
+              <!-- /.best_info -->
+            </li>
+          </ul>
+          <a href="#" class="best__link" onclick="return false">Лучшие книги</a>
+        </div>
+        <!-- /.best-wrapper -->
+      </div>
+      <!-- /.best -->
+    </div>
+    <!-- /.other-book-wrapper -->
+  </div>
+</section>
+<!-- /.other-book -->
+
+
+
+<section class="activities">
+  <div class="container">
+
+
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+
+        <div class="swiper-slide">
+          <div class="activities-slider">
+            <div class="activities-slider__list">
+              
+                          <div class="activities-slider__item">
+                          <img src="img/icon1.svg" alt="Icon: icon" class="activities-slider__icon">
+                            <h3 class="activities-slider__username">Бизнес & Финансы</h3>
+                            <span class="activities-slider__name">Книги про мир бизнеса</span>
+                                </div><!--slider__item -->
+                                
+                                
+                                <div class="activities-slider__item">
+                                  <img src="img/icon2.svg" alt="Icon: icon" class="activities-slider__icon">
+                                    <h3 class="activities-slider__username">Самомотивация</h3>
+                                    <span class="activities-slider__name">Книги о мотивации</span>
+                                        </div><!--slider__item -->
+    
+    
+                                        <div class="activities-slider__item">
+                                          <img src="img/icon3.svg" alt="Icon: icon" class="activities-slider__icon">
+                                            <h3 class="activities-slider__username">Романы Теленовеллы</h3>
+                                            <span class="activities-slider__name">Книги с крутыми историями</span>
+                                                </div><!--slider__item -->
+    
+                                                <div class="activities-slider__item">
+                                                  <img src="img/icon4.svg" alt="Icon: icon" class="activities-slider__icon">
+                                                    <h3 class="activities-slider__username">Навыки будущего</h3>
+                                                    <span class="activities-slider__name">Книги для самоподготовки</span>
+                                                        </div><!--slider__item -->    
+                        </div><!--.swiper-slide -->
+
+                   </div>
+        </div>
+
+        <div class="swiper-slide">
+        <div class="activities-slider">
+          <div class="activities-slider__list">
+            
+                        <div class="activities-slider__item">
+                        <img src="img/icon1.svg" alt="Icon: icon" class="activities-slider__icon">
+                          <h3 class="activities-slider__username">Бизнес & Финансы</h3>
+                          <span class="activities-slider__name">Книги про мир бизнеса</span>
+                              </div><!--slider__item -->
+                              
+                              
+                              <div class="activities-slider__item">
+                                <img src="img/icon2.svg" alt="Icon: icon" class="activities-slider__icon">
+                                  <h3 class="activities-slider__username">Самомотивация</h3>
+                                  <span class="activities-slider__name">Книги о мотивации</span>
+                                      </div><!--slider__item -->
+  
+  
+                                      <div class="activities-slider__item">
+                                        <img src="img/icon3.svg" alt="Icon: icon" class="activities-slider__icon">
+                                          <h3 class="activities-slider__username">Романы Теленовеллы</h3>
+                                          <span class="activities-slider__name">Книги с крутыми историями</span>
+                                              </div><!--slider__item -->
+  
+                                              <div class="activities-slider__item">
+                                                <img src="img/icon4.svg" alt="Icon: icon" class="activities-slider__icon">
+                                                  <h3 class="activities-slider__username">Навыки будущего</h3>
+                                                  <span class="activities-slider__name">Книги для самоподготовки</span>
+                                                      </div><!--slider__item -->    
+              </div><!--.swiper-slide -->
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="activities-slider">
+            <div class="activities-slider__list">
+
+                          <div class="activities-slider__item">
+                          <img src="img/icon1.svg" alt="Icon: icon" class="activities-slider__icon">
+                            <h3 class="activities-slider__username">Бизнес & Финансы</h3>
+                            <span class="activities-slider__name">Книги про мир бизнеса</span>
+                                </div><!--slider__item -->
+                                
+                                
+                                <div class="activities-slider__item">
+                                  <img src="img/icon2.svg" alt="Icon: icon" class="activities-slider__icon">
+                                    <h3 class="activities-slider__username">Самомотивация</h3>
+                                    <span class="activities-slider__name">Книги о мотивации</span>
+                                        </div><!--slider__item -->
+    
+    
+                                        <div class="activities-slider__item">
+                                          <img src="img/icon3.svg" alt="Icon: icon" class="activities-slider__icon">
+                                            <h3 class="activities-slider__username">Романы Теленовеллы</h3>
+                                            <span class="activities-slider__name">Книги с крутыми историями</span>
+                                                </div><!--slider__item -->
+    
+                                                <div class="activities-slider__item">
+                                                  <img src="img/icon4.svg" alt="Icon: icon" class="activities-slider__icon">
+                                                    <h3 class="activities-slider__username">Навыки будущего</h3>
+                                                    <span class="activities-slider__name">Книги для самоподготовки</span>
+                                                        </div><!--slider__item -->    
+                        </div><!--.swiper-slide -->
+                   </div>
+        </div>
+      </div>
+      
+      <button class="swiper-button-left">
+        <img src="img/arrowleft.svg" alt="Icon: swiper" class="swiper__button-left" />
+      </button>
+      <button class="swiper-button-right">
+        <img src="img/arrowright.svg" alt="Icon: swiper" class="swiper__button-right" />
+      </button>
+    
+
+
+     </div>
+     </div>
+    </div>
+  </div><!--container-->
+</section>
+
+
+
+
+<section class="books"><!--вся секция-->
+  <div class="container">
+
+    <div class="booksnew"><!--(№3)-->
+
+            <div class="newbooks"><!--секция неизданные книги и кнопки(№1)-->
+                  
+                      <h2 class="newbooks__title">Неизданные книги</h2><!--относится только к заголовку-->
+                      
+                  
+            </div>
+            
+
+            <div class="image"><!--(№2)-->
+              <img src="img/Image1.png" alt="Icon: icon" class="image__icon">
+              <img src="img/Image2.png" alt="Icon: icon" class="image__icon">
+              <img src="img/Image3.png" alt="Icon: icon" class="image__icon">
+              <img src="img/Image4.png" alt="Icon: icon" class="image__icon">
+              <img src="img/Image5.png" alt="Icon: icon" class="image__icon">
+            </div>
+
+    </div>
+                                                             
+
+        
+  
+  </div>
+</section>
+
+
+<section class="storys">
+  <div class="container">
+
+    <div class="story">
+
+                <div class="story-author">
+                      <h1 class="story-author__title">История Автора</h1>
+                      <div class="story-author__chapter">Это раздел авторского рассказа. Каждую неделю мы стараемся рассказать вам историю писателя. Расскажем всем о закулисье их книг.</div>
+                </div>
+
+
+                <div class="story-image">
+                        <img class="story-image__imga" src="img/author1.png" alt="Автор"/> 
+                  
+                        <div class="story-image__item">
+                            <img class="story-image__img" src="img/author2.png" alt="Автор"/> 
+
+                            <div class="story-image__flex">
+                            <h3 class="story-image__username">Emelda Scandroot</h3>
+                            <img class="story-image__svg" src="img/12.svg" alt=""/>
+                            </div>
+
+                            <span class="story-image__name">Author of Books Tittle</span>
+                        </div>
+
+                        <div class="story-image__item">
+                              <img class="story-image__img" src="img/author3.png" alt="Автор"/> 
+
+                                <div class="story-image__flex">
+                                    <h3 class="story-image__username">Mar Rueda</h3>
+                                    <img class="story-image__svg1" src="img/12.svg" alt=""/>
+                                </div>
+
+
+                              <span class="story-image__name">Author of Books Tittle</span>
+                        </div>
+
+                        <div class="story-image__item">
+                              <img class="story-image__img" src="img/author4.png" alt="Автор"/> 
+
+                              <div class="story-image__flex">
+                              <h3 class="story-image__username">Nembo Lukeni</h3>
+                              <img class="story-image__svg2" src="img/12.svg" alt=""/>
+                              </div>
+
+                              
+                              <span class="story-image__name">Author of Books Tittle</span>
+                        </div>
+                </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="partner">
+  
+        <h1 class="partner__title">Некоторые из издателей, с которыми мы сотрудничали</h1>
+
+        <div class="logo-container">
+
+          <div class="logo">
+            <img src="img/slack.png" alt="" class="logo-icon"/>
+          </div>
+      
+      
+          <div class="logo">
+            <img src="img/netflix.png" alt="" class="logo-icon"/>
+          </div>
+
+          <div class="logo">
+            <img src="img/fitbit.png" alt="" class="logo-icon"/>
+          </div>
+
+          <div class="logo">
+            <img src="img/google.png" alt="" class="logo-icon"/>
+          </div>
+
+          <div class="logo">
+            <img src="img/airbnb.png" alt="" class="logo-icon"/>
+          </div>
+
+          <div class="logo">
+            <img src="img/uber.png" alt="" class="logo-icon"/>
+          </div>
+
+          <div class="logo">
+            <img src="img/netflix.png" alt="" class="logo-icon"/>
+          </div>
+
+          <div class="logo">
+            <img src="img/airbnb.png" alt="" class="logo-icon"/>
+          </div>
+
+          <div class="logo">
+            <img src="img/slack.png" alt="" class="logo-icon"/>
+          </div>
+
+          <div class="logo">
+            <img src="img/uber.png" alt="" class="logo-icon"/>
+          </div>
+
+          <div class="logo">
+            <img src="img/fitbit.png" alt="" class="logo-icon"/>
+          </div>
+
+          <div class="logo">
+            <img src="img/google.png" alt="" class="logo-icon"/>
+          </div>
+        
+        </div>
+</section>
+
+<section class="blog">
+  <div class="container">
+
+    <div class="blogsnew">
+
+        <div class="blogs">
+
+            <div class="blogsdiv">
+            <h1 class="blogs__name">Ehya Блог</h1>
+            </div>  
+
+
+        <img src="img/Shape.png" alt="" class="blogs-icon"/>
+        <h2 class="blogs__title">Success Steps For Your Business Life</h2>
+        <p class="blogs__text">This is the author story section. Every week we try to give you the story of book writer. Tell all of you the behind the scene of their books.</p>
+        </div>
+
+
+
+    <div class="blogscard">
+
+      <li class="blogscard__item">
+        <img src="img/photo1.png" alt="Image: Photo" class="blogscard__img" />
+        <div class="blogscard__info">
+          <span class="blogscard__date">23 МАРТА 2020</span>
+          <h3 class="blogscard__title">
+            29 Motivational Quotes for Work Environments
+          </h3>
+            <button class="blogscard__button">
+              Читать
+            </button>
+          </div>
+      </li>
+
+      <li class="blogscard__item">
+        <img src="img/photo2.png" alt="Image: Photo" class="blogscard__img" />
+        <div class="blogscard__info">
+          <span class="blogscard__date">28 МАРТА 2020</span>
+          <h3 class="blogscard__title">
+            Learn To Love Growth and You Will Be A Success
+          </h3>
+            <button class="blogscard__button">
+              Читать
+            </button>
+          </div>
+      </li>
+
+      <li class="blogscard__item">
+        <img src="img/photo3.png" alt="Image: Photo" class="blogscard__img" />
+        <div class="blogscard__info">
+          <span class="blogscard__date">28 МАРТА 2020</span>
+          <h3 class="blogscard__title">
+            Motivation How To Build Trust at your Work
+          </h3>
+            <button class="blogscard__button">
+              Читать
+            </button>
+          </div>
+      </li>
+
+    </div>
+
+  </div>
+
+  </div>
+</section>
+
+<section class="newsletter">
+  <div class="newsletter-wrapper">
+    <h2 class="newsletter__title">Будь первым, кто узнает о наших акциях
+  </h2>
+  
+  <form action="send.php" method="POST" class="subscribe newsletter__subscribe form">
+    <input type="email" class="subscribe__input input" placeholder="Ваш email" name="email" required />
+    <button class="subscribe__button " type="submit">
+Регистрация
+    </button>
+    </form>
+  </div>
+</section>
+
+
+
+<section class="footer">
+  <div class="container">
+
+  <div class="footero"> <!--общий блок для всего-->
+
+
+              <div class="footeros"><!--общий блок для лого и ссылок-->
+
+                    <div class="footers-wrapper">
+                      <a href="index.html" class="footers__logo">
+                        <img src="img/Logo.svg" alt="icon: logo" />
+                    </a>
+                    </div>
+
+
+                    <div class="footers__social-network">
+                      <h3 class="footers__title">Создайте современный и креативный веб-сайт с crealand</h3>
+                    </div>
+              
+                  <div class="footers__social-links">
+                    <a href="https://www.google.ru/" target="_blank"></a>
+                    <img src="img/google111.png" alt="icon: google" />
+
+                    <a href="https://www.twitter.com/" target="_blank"></a>
+                    <img src="img/twitter.png" alt="icon: twitter" />
+
+                    <a href="https://www.instagram.com/" target="_blank"></a>
+                    <img src="img/insta.png" alt="icon: instagram" />
+
+                    <a href="https://www.youtube.com/" target="_blank"></a>
+                    <img src="img/fill.png" alt="icon: youtube" />
+                  </div>
+
+
+                </div>
+
+
+            <div class="footerss"> <!--общий блок для всех категорий-->
+                  
+                <div class="footerss__list">
+                  <h3 class="footerss__title">Продукт</h3>
+                  <ul class="footerss__ul">
+                      <li class="footerss__item">
+                          <a href="#" class="footerss__link">Лэндинг</a>
+                      </li>
+                      <li class="footerss__item">
+                          <a href="#" class="footerss__link">Функции</a>
+                      </li>
+                      <li class="footerss__item">
+                          <a href="#" class="footerss__link">Документация</a>
+                      </li>
+                      <li class="footerss__item">
+                          <a href="#" class="footerss__link">Скидки</a>
+                      </li>
+                      <li class="footerss__item">
+                          <a href="#" class="footerss__link">Расценки</a>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="footerss__list ">
+                <h3 class="footerss__title">Сервисы</h3>
+                <ul class="footerss__ul">
+                    <li class="footerss__item">
+                        <a href="#" class="footerss__link">Документация</a>
+                    </li>
+                    <li class="footerss__item">
+                        <a href="#" class="footerss__link">Дизайн</a>
+                    </li>
+                    <li class="footerss__item">
+                        <a href="#" class="footerss__link">Темы</a>
+                    </li>
+                    <li class="footerss__item">
+                        <a href="#" class="footerss__link">Иллюстрации</a>
+                    </li>
+                    <li class="footerss__item">
+                        <a href="#" class="footerss__link">UI Kit</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footerss__list footerss__categories">
+              <h3 class="footerss__title">Компания</h3>
+              <ul class="footerss__ul">
+                  <li class="footerss__item">
+                      <a href="#" class="footerss__link">О нас</a>
+                  </li>
+                  <li class="footerss__item">
+                      <a href="#" class="footerss__link">Условия</a>
+                  </li>
+                  <li class="footerss__item">
+                      <a href="#" class="footerss__link">Privacy Policy</a>
+                  </li>
+                  <li class="footerss__item">
+                      <a href="#" class="footerss__link">Careers</a>
+                  </li>
+              </ul>
+            </div>
+
+
+            <div class="footerss__list footerss__categories">
+              <h3 class="footerss__title">Еще..</h3>
+              <ul class="footerss__ul">
+                  <li class="footerss__item">
+                      <a href="#" class="footerss__link">Документация</a>
+                  </li>
+                  <li class="footerss__item">
+                      <a href="#" class="footerss__link">Лицензия</a>
+                  </li>
+                  <li class="footerss__item">
+                      <a href="#" class="footerss__link">Изменения</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+</div>
+
+<div class="heart">
+  <img class="heart__img" src="img/Heart.png" alt="icon: heart" />
+  <div class="heart__text">Copyright © 2019. Crafted with love.</div>
+
+</div>
+
+
+</section>
+
+
+
+
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
